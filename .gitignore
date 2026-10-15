@@ -1,0 +1,10 @@
+# OS / editor junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Packaging output
+*.zip
+
+# WorkBuddy local data
+.workbuddy/

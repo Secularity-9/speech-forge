@@ -78,6 +78,13 @@ git clone https://github.com/Secularity-9/speech-forge.git ~/.workbuddy/skills/s
 
 见 [`examples/竞选演讲示例.md`](examples/竞选演讲示例.md)：一次完整的生成过程——从输入收集、共情三问、场景参数卡，到成稿与 10 条质检清单逐项核对。
 
+## 在其它 AI 平台使用
+
+本 Skill 的自动触发是 WorkBuddy 专属，但内容是纯 Markdown 指令、零依赖。需要到 ChatGPT 自定义 GPT、Claude、豆包、通义等任意 LLM 使用时：
+
+- 见 [`portable.md`](portable.md)：一份去 WorkBuddy 化、浓缩成单文件的通用指令包，全文作为 System Prompt 粘贴即可，触发方式、方法论、场景速查、质检清单一应俱全。
+- 或把本仓库的 `SKILL.md` + `references/` 作为上下文喂给任意 LLM，能力完全一致。
+
 ## 致谢
 
 方法论提炼自依力老师《高效沟通领导能力》课程（2026-07-25）。本仓库是课程方法论的 Skill 化封装，案例库中的真实故事均来自课程分享。
